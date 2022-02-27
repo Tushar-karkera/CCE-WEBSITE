@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+body {
+  background-image: linear-gradient(to right, rgb(56, 34, 145), rgb(74, 9, 87));
+  font-family: "Exo 2", sans-serif;
+}
+
+#heading {
+  color: white;
+}
+
+.navbar{
+  background-image: linear-gradient(to right,rgb(23, 34, 66),rgb(67, 8, 75));
+  /* backdrop-filter: blur(10px); */
+}
+
+#cards {
+  background-color: blue;
+}
+
+#intro {
+  font-weight: bold;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 4em;
+  margin-top: 0;
+}
+
+.card-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.homecard {
+  border-radius: 0.8em;
+  /* box-shadow: 0 0 5px 0; */
+  background: inherit;
+  backdrop-filter: blur(10px);
+  border: 0;
+  
+}
+
+#feedback_button,
+#about_button,
+#home_buttons {
+  border-radius: 1.1em;
+}
+
+#feedback_button {
+  background-color: rgb(181, 71, 190);
+  border: 0;
+  color: black;
+}
+
+#about_button {
+  background-color: rgb(58, 197, 151);
+  border: 0;
+  color: black;
+}
+
+.nav-brand img{
+  border-radius: 2em;
+}
