@@ -91,13 +91,13 @@ app.listen(port, async(err, res) => {
     
     await mongoose.connect(`mongodb+srv://${process.env.user}:${process.env.password}@cce-database.ehckl.mongodb.net/${process.env.database}?retryWrites=true&w=majority`)
         .then((res) => {
-            console.log('connected to database')
+            //console.log('connected to database')
         })
         .catch((err) => {
             //console.log(process.env)
-            console.log(err)
+            //console.log(err)
         })
-    console.log(`listening on port ${port}`)
+    //console.log(`listening on port ${port}`)
 
 })
 
