@@ -9,6 +9,11 @@ dotenv.config();
 const port = 3000 //default port used
 
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, "./templates/htmlpages/home.html"))
+})
+
+
 app.use(express.urlencoded({
     extended: true
 }))
@@ -21,9 +26,6 @@ app.use(express.static(path.join(__dirname, '/templates')))
 
 
 //home path for the website
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, "./templates/htmlpages/home.html"))
-})
 
 
 //3rd sem configured routes 
