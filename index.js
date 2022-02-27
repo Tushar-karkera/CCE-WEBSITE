@@ -6,7 +6,7 @@ const feedback = require('./database/schema')
 const dotenv = require('dotenv');
 const three_routes = require('./routes/route3rdsem')
 dotenv.config();
-const port = 3000 //default port used
+const port = process.env.PORT || 3007//default port used
 
 
 app.get('/', (req, res) => {
