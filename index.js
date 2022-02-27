@@ -97,7 +97,7 @@ app.listen(port, async(err, res) => {
         })
         .catch((err) => {
             //console.log(process.env)
-            //console.log(err)
+            console.log(err)
         })
     //console.log(`listening on port ${port}`)
 
