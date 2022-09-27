@@ -49,9 +49,13 @@ app.get('/intermediate4thsem', (req, res) => {
 
 //below routes are yet to be configured
 
-app.get('/5thsem', (req, res) => {
-    res.sendFile(path.join(__dirname, "./templates/htmlpages/home.html"))
+app.get('/5thsemnotes', (req, res) => {
+    res.sendFile(path.join(__dirname, "./templates/htmlpages/5thsem/5thsempage.html"))
 })
+app.get('/intermediate5thsem', (req, res) => {
+    res.sendFile(path.join(__dirname, "./templates/htmlpages/5thsem/intermediate5thsem.html"))
+})
+
 
 
 //services are routed below such as about page and feedback form
