@@ -18,6 +18,7 @@ body {
 
   align-content: center;
   min-height: 100vh;
+  text-align: center;
 }
 section {
   display: grid;
@@ -27,6 +28,7 @@ section {
   margin: 2em auto 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 12px;
+  text-align: center;
 }
 .image {
   background-color: #12192c;
@@ -73,7 +75,8 @@ section {
   color: #ffffff;
 }
 .links {
-  margin: 15px 0;
+  margin: auto;
+  text-align: center;
 }
 .links li {
   border: 2px solid #4158d0;
@@ -82,6 +85,7 @@ section {
   padding: 10px 15px;
   width: 200px;
   text-align: center;
+  margin: 0px auto;
 }
 .links li a {
   text-transform: uppercase;
@@ -116,6 +120,8 @@ section {
   cursor: pointer;
 }
 
+
+
 /*****************/
 
 @media (max-width: 900px) {
@@ -126,10 +132,11 @@ section {
   }
   .image {
     height: 100vh;
+    width: 100%;
     border-radius: none;
   }
   .content {
-    height: 100vh;
+    height: 100%;
     border-radius: none;
   }
   .content h2 {
@@ -154,6 +161,27 @@ section {
   .icons li i {
     font-size: 15px;
   }
+
+  .navbar{
+    width: 100%;
+  }
+
+  .credit{
+    width: 100%;
+  }
+
+  body{
+    /* overflow-x: hidden; */
+    width: 100%;
+    height: 100%;
+    /* margin: 0 150px 0 0; */
+    align-content: center;
+    text-align: center;
+    padding: 0px auto;
+    /* position: absolute; */
+    
+  }
+  
 }
 .credit {
   text-align: center;
